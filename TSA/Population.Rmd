@@ -1,0 +1,24 @@
+
+```{r}
+
+install.packages("ggthemes")
+install.packages("data.table")
+install.packages("devtools")
+install.packages("dplyr")
+install.packages("plyr")
+install.packages("reshape2")
+install.packages("scales")
+install.packages("stringr")
+
+```
+
+```{r}
+DF$AVG <-as.numeric(DF$AVG)
+DF$GO.AO <-as.numeric(DF$GO.AO)
+DF$BB.K <-as.numeric(DF$BB.K)
+DF$P.PA <-as.numeric(DF$P.PA)
+DF$ISOP <-as.numeric(DF$ISOP)
+
+
+```
+
